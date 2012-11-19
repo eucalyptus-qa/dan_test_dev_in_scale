@@ -1,3 +1,19 @@
+dan_test_dev_in_scale
+=====================
+
+## Description
+
+Run 4 instances of dan_test_dev_as_user, and run dan_test_dev_as_user one more to verify that the system is in a good state
+
+## Procedure
+
+1. Run 4 instances of dan_test_dev_as_user under different users in parallel
+
+2. Run dan_test_dev_as_user one more time.
+
+3. Verify that the system is in a good state
+
+
 # Eucalyptus Testunit Framework
 
 Eucalyptus Testunit Framework is designed to run a list of test scripts written by Eucalyptus developers.
